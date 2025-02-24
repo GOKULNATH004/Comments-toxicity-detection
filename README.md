@@ -1,4 +1,4 @@
-##🚀 Comment Toxicity Detection
+🚀 Comment Toxicity Detection
 
 This project focuses on detecting toxicity in online comments using a deep learning approach. The model classifies comments into different toxicity categories, such as moderate, high, threatening, and racist. It employs Natural Language Processing (NLP) techniques and a hybrid CNN-LSTM architecture to manage word embeddings and text classification. The model is deployed using a Gradio web application, allowing users to input comments and receive real-time toxicity predictions.
 
