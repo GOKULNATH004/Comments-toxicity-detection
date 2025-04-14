@@ -44,10 +44,8 @@ This project focuses on detecting toxicity in online comments using a deep learn
 │   ├── model_training.ipynb # Model architecture and training
 │
 ├── app/         
-│   ├── gradio_app.py # Gradio web app for model deployment
-│
-├── README.md    # Project documentation
-└── requirements.txt # Python dependencies
+    ├── gradio_app.py # Gradio web app for model deployment
+
 
 🔧 Installation
 
@@ -59,14 +57,6 @@ This project focuses on detecting toxicity in online comments using a deep learn
 
 ✅ Gradio 3.x
 
-🛠️ Setup Instructions
-
-# Clone the repository
-git clone https://github.com/your-repo/comment-toxicity-detection.git
-cd comment-toxicity-detection
-
-# Install dependencies
-pip install -r requirements.txt
 
 🚀 Usage
 
@@ -81,9 +71,6 @@ Once the Gradio web app is running, users can input any comment, and the model w
 🏴 Racist
 
 The output will display a binary label (0 for non-toxic, 1 for toxic) for each category, allowing users to quickly identify harmful content.
-
-# Run the Gradio application
-python app/gradio_app.py
 
 📊 Dataset
 
